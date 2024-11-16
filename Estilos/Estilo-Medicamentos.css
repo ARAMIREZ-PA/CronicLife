@@ -1,0 +1,88 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/foto-gratis/vaso-agua-pastillas-escritorio_23-2148551003.jpg?t=st=1730680952~exp=1730684552~hmac=9d30e78df5a61629b8436f6f42868fea97f7bb1c550752127d4dceda5833ffc0&w=1060'); /* Cambia esto por la ruta de tu imagen */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    padding-top: 20%;
+  }
+  
+  h1 {
+    color: #0b060e; /* Color del título */
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive; /* Cambia la fuente del título */
+    text-align: center; /* Centra el título */
+  }
+  
+  h2 {
+    color: #00796B;
+  }
+  
+  h3 {
+    color: #050607;
+  }
+  
+  p.subtitle {
+    font-size: 1em;
+    color: #0a2846;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  /* Estilos del formulario */
+  form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para los labels */
+  label {
+    display: -webkit-box;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para los inputs */
+  input[type="text"], input[type="number"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  
+  }
+  
+  /* Estilos para los select */
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    background-color: #16aebe; /* Color del botón */
+    color: #050607;
+    border: 2px solid #010101;
+    border-radius: 5px;
+    padding: 12px; /* Aumento del padding para botones */
+    cursor: pointer;
+    width: 30%;
+    font-size: 1em; /* Aumento del tamaño de la fuente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra del borde */
+    transition: box-shadow 0.3s ease; /* Transición suave para el efecto hover */
+  }
+  
+  button:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada al pasar el mouse */
+    background-color: #1eadbd;
+    color: #1eadbd;
+  }
+ 

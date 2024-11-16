@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CronicLife</title>
+
+    <link rel="stylesheet" href="Estilos/inicio.css">
+</head>
+
+<body>
+    <img class="mar" src="Imagenes/Imagenes/Logo.png" width="300px" alt="logo">
+    <header>
+        <hr>
+        <div>
+            <nav>
+                <ul style="list-style-type:none">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="#">Canales de contacto</a></li>
+                    <li><a href="Preguntas.html">¿Quienes somos?</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+    </header>
+
+    <footer>
+        <div class="container" id="login-container">
+            <h1>Iniciar sesión</h1>
+
+            <form action="CronicLife.html">
+                <fieldset>
+                    <legend>Datos de Ingreso</legend>
+
+                    <label for="Tipo-Documento"><h3>Tipo de Identificación</h3></label>
+                    <select name="Tipo-Documento" id="Tipo-Documento" placeholder="Tipo Documento">
+                        <option value=""></option>
+                        <option value="C">Cédula</option>
+                        <option value="E">Cédula Extranjería</option>
+                        <option value="P">Pasaporte</option>
+                        <option value="R">Registro Civil</option>
+                        <option value="T">Tarjeta de Identidad</option>
+                        <option value="PPT">Permiso por Protección Temporal</option>
+                    </select>
+                    <br>
+
+                    <label for="numero-id"><h3>Numero de Identificación</h3></label>
+                    <input type="text" id="numero-id" name="numero-id" placeholder="Número Documento">
+                    <br>
+
+                    <label for="password"><h3>Contraseña</h3></label>
+                    <input type="password" id="password" name="password" placeholder="***********">
+                    <br><br>
+
+                    <button type="submit">Iniciar sesión</button>
+                </fieldset>
+            </form>
+
+            <br>
+            <a href="recuperar_contrasena.html" class="recover-password">Recuperar Contraseña</a>
+            <br><br>
+        </div>
+    </footer>
+
+    <hr>
+    <main>Contactanos</main>
+    <hr>
+
+</body>
+
+</html>

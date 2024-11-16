@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control del Paciente</title>
+    <link rel="stylesheet" href="Estilos/Estilos-ControlPaciente.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Panel de Control del Paciente</h1>
+
+        <section class="section">
+            <h2>Registrar Datos de Patología</h2>
+            <form>
+                <h3>Seleccionar patologia</h3>
+                <label for="patologia">Patología:</label>
+                <select id="patologia">
+                    <option value="hipertensión">Hipertensión</option>
+                    <option value="diabetes">Diabetes</option>
+                    <option value="tiroides">Tiroides</option>
+                </select>
+            </form>
+        <section class="section">
+            <h2>Registrar Estado de Ánimo</h2>
+            <form>
+                <label for="estado_animo">Estado de ánimo:</label>
+                <select id="estado_animo">
+                    <option value="feliz">Feliz</option>
+                    <option value="triste">Triste</option>
+                    <option value="neutral">Neutral</option>
+                </select>
+                <button type="submit">Registrar</button>
+            </form>
+        </section>
+
+        <section class="section">
+            <h2>Registrar Tiempo de Actividad Física</h2>
+            <form>
+                <label for="actividad">Actividad física:</label>
+                <input type="text" id="actividad" placeholder="Ej: Correr, caminar">
+                <label for="duracion">Duración (minutos):</label>
+                <input type="number" id="duracion">
+                <button type="submit">Registrar</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

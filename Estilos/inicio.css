@@ -1,0 +1,290 @@
+header {
+    background-color: hsl(178, 72%, 45%);
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin-left: -0.5%;
+margin-right: -0.5%;
+
+
+}
+
+form {
+    background-color: #E0F2F1;
+    width: 10%;
+    margin-left: 23%;
+    padding: 10px;
+}
+
+main {
+    background-color: azure;
+}
+
+
+body {
+    background-color: #E0F2F1;
+    font-family: sans-serif;
+    margin: 70;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li {
+    display: inline;
+    width: 30%;
+    margin: 60px;
+    padding: 10px;
+}
+
+.mar {
+    width: 30%;
+    margin-left: 0%;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 92px;
+    align-items: center;
+}
+
+nav a {
+    font-weight: 100;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    color: rgb(165, 165, 224);
+}
+
+.widget {
+    padding-right: 5px;
+}
+
+.recover-password {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #00796B;
+}
+
+.container {
+    background-color: #FFFFFF;
+    /* Fondo blanco para el formulario */
+    border-radius: 10px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+    padding: 3px;
+    /* Aumento del padding para hacer la interfaz más grande */
+    width: 350px;
+    /* Aumento del ancho de la interfaz */
+    text-align: center;
+}
+
+.contra {
+    width: 80%;
+    margin: left 37%;
+    ;
+}
+
+.pr {
+    background-color: #FFFFFF;
+    /* Fondo blanco para el formulario */
+    border-radius: 10px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
+    padding: 15%;
+    /* Aumento del padding para hacer la interfaz más grande */
+    width: 500px;
+    /* Aumento del ancho de la interfaz */
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tex {
+    text-align: justify;
+}
+
+.icon {
+    display: flex;
+    justify-content: right;
+    gap: 35px;
+    font-family: Letterstitch Plain Light;
+    transition: all ease 700;
+}
+
+.icon a :hover {
+    color: black;
+    transform: scale(1.2);
+    transition: all ease 300ms;
+}
+
+.Home {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    font-size: 30px;
+    transition: all ease 300ms;
+}
+
+.Whatsapp {
+
+    font-size: 20px;
+    color: rgb(18, 183, 18);
+    transition: all ease 3ms;
+}
+
+.TikTok {
+
+    font-size: 20px;
+    color: black;
+    transition: all ease 500ms;
+}
+
+.Facebook {
+
+    font-size: 20px;
+    color: rgb(7, 7, 242);
+    transition: all ease 500ms;
+}
+
+.Instagram {
+
+    font-size: 20px;
+    color: rgb(225, 75, 155);
+    transition: all ease 500ms;
+}
+
+.codigo {
+    text-align: center;
+}
+
+.input {
+    width: 200px;
+    background-color: turquoise;
+}
+
+.aste {
+
+    font-size: 10px
+}
+
+.h66 {
+    text-align: justify;
+    color: red;
+}
+
+.iz{
+    text-align: ;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.butt {
+    background-color: #ffffffd3; /* Fondo blanco para botones */
+    border: none;
+    border-radius: 8px;
+    padding: 2px; /* Aumento del padding para botones */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Aumento del ancho de los botones */
+    font-size: 100%; 
+ }
+
+ .butt img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+ }
+
+ .Servicios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+ }
+
+ .servicio {
+    display: flex;
+    color:  hsl(178, 72%, 45%);
+    font-size: 130%;
+    justify-content: center;
+ }
+
+ .novedades {
+    display: flex;
+    color:  hsl(178, 72%, 45%);
+    font-size: 130%;
+    justify-content: center;
+ }
+
+ .nov1 {
+    border: none;
+    border-radius: 8px;
+    padding: 2px; /* Aumento del padding para botones */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Aumento del ancho de los botones */
+    font-size: 80%;     
+    justify-content: center;
+ }
+
+ .nov1 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;    
+ }
+
+ .novedad {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;    
+ }
+
+.aliados {
+    background-color: hsl(178, 72%, 45%);
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+    color: white;
+
+}
+
+.aliadosI {
+    background-color: hsl(178, 72%, 45%);
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+    color: white;
+
+}
+
+ .aliados img {
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;   
+    align-content: vertical;   
+ }

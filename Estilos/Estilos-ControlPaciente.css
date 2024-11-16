@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/fotos-premium/concepto-medico-vista-superior-plana-vista-primer-plano-estetoscopio-oximetro-pulso-mascara-medica-pildoras-o-vitaminas-sobre-fondo-verde-espacio-copia-banner_488721-1517.jpg?w=1060'); /* Cambia esto por la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    background-position: center;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    padding-top: 0%;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #16aebe;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#alertas {
+    list-style: none;
+    padding: 0;
+}

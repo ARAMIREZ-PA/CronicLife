@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión   
+ de Medicamentos</title>
+    <link rel="stylesheet" href="Estilos/Estilo-Medicamentos.css">
+</head>
+<body>
+
+<form>
+    <h2>Gestión de Medicamentos</h2>
+
+    <h3>Consultar Medicamentos</h3>
+    <input type="text" placeholder="Buscar medicamento...">
+    <button type="submit">Buscar</button>
+    <h3>Seleccionar patologia</h3>
+    <label for="patologia">Patología:</label>
+    <select id="patologia">
+        <option value="hipertensión">Hipertensión</option>
+        <option value="diabetes">Diabetes</option>
+        <option value="tiroides">Tiroides</option>
+    </select>
+    <h3>Alerta de Dosificación</h3>
+    <button type="button">Ver alertas</button>
+
+    <h3>Personalizar Alerta de Dosificación</h3>
+    <label for="medicamento">Medicamento:</label>
+    <select id="medicamento"></select>
+    <label for="frecuencia">Frecuencia (horas):</label>
+    <input type="number" id="frecuencia">
+    <button type="button">Guardar Alerta</button>
+
+    <h3>Registrar Dosificación de Medicamentos</h3>
+    <label for="medicamentoRegistro">Medicamento:</label>
+    <select id="medicamento"></select>
+    <label for="dosis">Dosis (mg):</label>
+    <input type="number" id="dosis">
+    <label for="fecha">Fecha:</label>
+    <input type="date" id="fecha">
+    <button type="button">Registrar Dosificación</button>
+
+    <h3>Visualizar Foto del Medicamento</h3>
+    <label for="nombreMedicamento">Nombre del medicamento:</label>
+    <input type="text" id="nombreMedicamento">
+    <button type="button">Ver Foto</button>
+</form>
+
+<script>
+    // JavaScript para poblar el select de medicamentos según la patología seleccionada
+    // (Aquí iría el código JavaScript para manejar la lógica de las listas desplegables y otras funcionalidades)
+</script>
+
+</body>
+</html>

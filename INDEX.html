@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CronicLife</title>
+
+    <link rel="stylesheet" href="Estilos/inicio.css">
+
+</head>
+
+<body>
+    <img class="mar" src="Imagenes/Logo.png" width="300px" alt="logo">
+    <header>
+        <hr>
+        <div>
+            <nav>
+                <ul style="list-style-type:none">
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="#">Preguntas Frecuentes</a></li>
+                    <li><a href="#">Canales de contacto</a></li>
+                    <li><a href="Preguntas.html">¿Quienes somos?</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+    </header>
+<br>
+    <form action="CronicLife.html" method="post ">
+        <div class="container" id="login-container">
+
+            <fieldset class="pru">
+                <legend>
+                    <h2>Iniciar sesión en CronicLife</h2>
+                </legend>
+            <h3>Tipo de Identificación</h3>
+            <select name="" id="" placeholder="Tipo Documento" required>
+                <option value=""></option>
+                <option value="C">Cedula de Ciudadania</option>
+                <option value="E">Cedula Extranjeria</option>
+                <option value="P">Pasaporte</option>
+                <option value="R">Registro Civil</option>
+                <option value="T">Tarjeta Identidad</option>
+                <option value="PPT">Permiso por Protección Temporal</option>
+            </select>
+            <br>
+            <h3> Numero de Identificación</h3>
+            <input class="codigo" type="number" placeholder="Numero Documento" required>
+            <br>
+            <h3> Contraseña</h3>
+            <input class="codigo" type="password" placeholder="Digite la Contraseña" required="true" minlength="8" maxlength="12">
+            <br>
+            <br>
+            <input class="input" type="submit" value="Iniciar Sesión">
+            <br>
+            <br>
+            <a href="Recuperar_Contraseña.html" class="recover-password">Recuperar Contraseña</a>
+            <br>
+            <br>
+            <a href="Registro.html" class="recover-password">Registrarse</a>
+            <br>
+            <br>
+            </fieldset>
+        </div>
+    </form>
+
+    <hr>
+    <main>Contactanos</main>
+    <hr>
+
+</body>
+
+</html>

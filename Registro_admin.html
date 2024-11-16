@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Administrador</title>
+
+    <link rel="stylesheet" href="Estilos/inicio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+
+<body>
+    <header>
+        <hr>
+        <div class="icon">
+            <a class="Home" href="INDEX.html">
+                <i class="fa-solid fa-house"> CronicLife</i>
+            </a>
+            <a class="Facebook" href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="Whatsapp" href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a class="TikTok" href="https://www.tiktok.com/@camilo?lang=es" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a class="Instagram" href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+        <hr>
+    </header>
+    <br><br>
+
+    <form action="" method="post ">
+        <div class="container" id="login-container">
+            <img class="contra" src="Imagenes/Imagenes/Logo.png" alt="">
+            <fieldset class="pru">
+                <legend>
+                    <h2>Crea tu cuenta de CronicLife</h2>
+                </legend>
+                <img class="reg" src="Imagenes/Imagenes/administrador.png" alt="admin"><br><br>
+                <select class="ali" name="Tipo de Identificación" id="Tipo de Identificación" required>
+                    <option value="" disabled selected>Selecciona tu tipo de documento</option>
+                    <option value="C">Cedula de Ciudadania</option>
+                    <option value="E">Cedula Extranjeria</option>
+                    <option value="P">Pasaporte</option>
+                    <option value="R">Registro Civil</option>
+                    <option value="T">Tarjeta Identidad</option>
+                    <option value="PPT">Permiso por Protección Temporal</option>
+                </select>
+                <br><br>
+                <input class="ali" type="number" placeholder="Numero de documento" required="true" maxlength="10">
+                <input class="ali" type="text" placeholder="Primer Nombre" class="input-inline">
+                <br><br>
+                <input class="ali" type="text" placeholder="Segundo Nombre" required>
+                <input class="ali" type="text" placeholder="Primer Apellido">
+                <br><br>
+                <input class="ali" type="text" placeholder="Segundo Apellido" required>
+                <input class="ali" type="number" placeholder="Teléfono celular" required="true" minlength="10" maxlength="10">
+                <br>
+                <br>
+                <input class="ali" type="email" value="@croniclife.com.co" required>
+                <input class="ali" type="email" value="@croniclife.com.co" required="">
+                <br>
+                <br>
+                <input class="ali" type="password" placeholder="Contraseña" required>
+                <input class="ali" type="password" placeholder="Confirmar Contraseña" required="">
+                <br>
+                <br>
+                <input class="input" type="submit" value="Crear Cuenta">
+                <br>
+                <br>
+        </div>
+
+        </fieldset>
+    </form>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

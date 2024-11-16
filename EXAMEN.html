@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Médica</title>
+    <link rel="stylesheet" href="Estilos/examenes.css">
+</head>
+<body>
+    <img class="mar" src="Imagenes/Imagenes/Logo.png" width="300px" alt="logo">
+
+    <div class="container">
+                <div class="consulta-periodo">
+            <h3>PERIODO DE CONSULTA: 6 MESES</h3>
+            <label for="fecha-inicial">Fecha Inicial:</label>
+            <br></br>
+            <input type="date" id="fecha-inicial" value="2024-06-01">
+            <label for="fecha-final">Fecha Final:</label>
+            <input type="date" id="fecha-final" value="2024-11-01">
+        </div>
+
+        <!-- Estado de Afiliación -->
+        <div class="estado-afiliacion">
+            <h3>Estado de Afiliación</h3>
+            <div class="status">
+            <div class="activo">🟢 ACTIVO</div>
+            <div class="inactivo">🔴 INACTIVO</div>
+            <h4>Grupo Familiar</h4>
+            <div class="familiar">
+                <strong>Mariana </strong><br>
+                5566565<br>
+            </div>
+            <div class="cotizante">
+                <strong>Nidia Quintero Bastidas</strong><br>
+                52542142<br>
+                Cotizante
+            </div>
+        </div>
+    </div>
+
+    <!-- Menú de opciones -->
+    <div class="container">
+        <div class="menu">
+            <button>Consulta Médica</button>
+            <button class="active">Laboratorios</button>
+            <button>Ayudas Diagnósticas</button>
+        </div>
+
+    <div class="container consulta-estado-container">
+            <!-- Periodo de Consulta -->
+            <div class="consulta-periodo">
+                <h3>PERIODO DE CONSULTA: 6 MESES</h3>
+                <label for="fecha-inicial">Fecha Inicial:</label>
+                <input type="date" id="fecha-inicial" value="2024-06-01">
+                <br><br>
+                <label for="fecha-final">Fecha Final:</label>
+                <input type="date" id="fecha-final" value="2024-11-01">
+            </div>
+    </div>
+
+    <!-- Laboratorios -->
+    <div class="laboratorios">
+        <h2>Laboratorios</h2>
+        <div>
+            <button>JUNIO</button>
+            <button>JULIO</button>
+            <button>AGOSTO</button>
+            <button>SEPTIEMBRE</button>
+            <button>OCTUBRE</button>
+            <button>NOVIEMBRE</button>
+        </div>
+        <input type="text" placeholder="Buscar Servicio">
+        <table>
+            <tr>
+                <th>Fecha</th>
+                <th>Servicio</th>
+                <th>Fecha Resultado</th>
+                <th>IPS</th>
+                <th>Resultado</th>
+            </tr>
+            <!-- Ejemplo de fila de laboratorio -->
+            <tr>
+                <td>15/06/2024</td>
+                <td>Hematología</td>
+                <td>16/06/2024</td>
+                <td>Clínica XYZ</td>
+                <td>Normal</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

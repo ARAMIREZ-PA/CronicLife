@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRONICLIFE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Estilos/estiloIntMedico.css"> <!-- Enlace al archivo CSS separado -->
+</head>
+<body>
+    <!-- Interfaz principal (modificada para mostrarse directamente) -->
+    <div class="main-container" id="main-container" style="display: flex;">
+        <div class="main-header">
+            <img src="Imagenes/Imagenes/Logo.png" width="390px" alt="Logo">
+            <h1></h1>
+            <div>
+                <button class="botonconfig">⚙️</button> 
+                <button class="botonconfig">🔔</button>
+                
+            </div>
+        </div>
+        <h2 id="welcome-message">¡Bienvenido, [Nombre de la Persona]!</h2>
+        <p class="subtitle"><b>Realiza fácilmente tus procesos con CRONICLIFE.</b><br>¡Conoce aquí las soluciones virtuales que tenemos especialmente para ti!</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar...">
+        </div>
+
+        <div class="buttons">
+            <button class="button">
+                <img src="Imagenes/Imagenes/agregarpaciente.png" alt="REGISTRO PACIENTE">
+                <p><h5>REGISTRO PACIENTE</h5></p>
+            </button>
+            <button class="button">
+                <img src="Imagenes/Imagenes/citapaciente.png" alt="CITA PACIENTE">
+                <p><h5> CITA PACIENTE</h5></p>
+            </button>
+            <button class="button">
+                <img src="Imagenes/Imagenes/seguimientopaciente.png" alt="SEGUIMIENTO PACIENTE">
+                <p><h5>SEGUIMIENTO PACIENTE</h5></p>
+            </button>
+            <button class="button">
+                <img src="Imagenes/Imagenes/tratamiento.png" alt="GESTION TRATAMIENTO">
+                <p><h5>GESTION DE TRATAMIENTO</h5></p>
+            </button>
+            <button class="button">
+                <img src="Imagenes/Imagenes/ordenmedica.png" alt="ORDEN MEDICA">
+                <p><h5>ORDEN MEDICA</h5></p>
+            </button>
+            <button class="button">
+                <img src="Imagenes/Imagenes/resultados examenes.png" alt="RESULTADOS EXAMENES">
+                <p><h5>RESULTADOS EXAMENES</h5></p>
+            </button>
+        </div>
+        
+        <footer>
+            <p>&copy; 2024 CRONICLIFE. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Código para mostrar un nombre aleatorio al cargar la interfaz principal
+        const names = ["Juan", "Ana", "Pedro", "María", "Luis", "Carla"];
+        const randomName = names[Math.floor(Math.random() * names.length)];
+        document.getElementById('welcome-message').innerText = `¡Bienvenido, ${randomName}!`;
+    </script>
+</body>
+</html>

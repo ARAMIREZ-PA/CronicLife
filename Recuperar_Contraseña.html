@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Contraseña</title>
+
+    <link rel="stylesheet" href="Estilos/inicio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+
+<body>
+    <header>
+        <hr>
+        <div class="icon">
+            <a class="Home" href="INDEX.html">
+                <i class="fa-solid fa-house"> CronicLife</i>
+            </a>
+            <a class="Facebook" href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="Whatsapp" href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a class="TikTok" href="https://www.tiktok.com/@camilo?lang=es" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a class="Instagram" href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+        <hr>
+    </header>
+    <br><br>
+
+    <form action="Correo_Seguridad.html" method="post ">
+        <div class="container" id="login-container">
+            <img class="contra" src="Imagenes/Imagenes/Logo.png" alt="">
+            <h1>¿Olvidaste tu contraseña?</h1>
+            <h6>Para reestablecer tu contraseña ingresa tu tipo y número de identificación </h6>
+            <h3>Tipo de Identificación</h3>
+            <select name="" id="" placeholder="Tipo Documento" required>
+                <option value=""></option>
+                <option value="C">Cedula de Ciudadania</option>
+                <option value="E">Cedula Extranjeria</option>
+                <option value="P">Pasaporte</option>
+                <option value="R">Registro Civil</option>
+                <option value="T">Tarjeta Identidad</option>
+                <option value="PPT">Permiso por Protección Temporal</option>
+            </select>
+            <br>
+            <h3> Número de Identificación</h3>
+            <input class="codigo" type="number" placeholder="Número Documento" required>
+            <br><br>
+            <input type="submit" value="Buscar" style="background-color: turquoise;">
+            <br>
+            <br>
+        </div>
+    </form>
+
+
+</body>
+
+</html>

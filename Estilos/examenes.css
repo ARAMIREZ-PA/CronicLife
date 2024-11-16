@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.consulta-periodo, .estado-afiliacion, .menu, .laboratorios {
+    margin-bottom: 20px;
+}
+
+.consulta-periodo input {
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.estado-afiliacion {
+    text-align: center;
+}
+
+.estado-afiliacion div {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.activo {
+    color: green;
+}
+
+.inactivo {
+    color: red;
+}
+
+.familiar, .cotizante {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cotizante {
+    background-color: #003366;
+    color: white;
+}
+
+.menu button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.menu .active {
+    background-color: #003366;
+    color: white;
+}
+
+.laboratorios {
+    text-align: center;
+}
+
+.laboratorios button {
+    margin: 5px;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
