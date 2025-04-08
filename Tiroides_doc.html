@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+
+    <link rel="stylesheet" href="Estilos/inicio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+
+<body>
+
+    <img class="mar" src="Imagenes/Logo.png" width="300px" alt="logo">
+    <header>
+        <hr>
+        <div>
+            <nav>
+                <ul style="display: inline;">
+                    <li><a href="CronicLife.html" class="problem"><strong>REGRESAR</strong></a></li>
+                    <li><a href="#" class="problem"><strong>PREGUNTAS FRECUENTES</strong></a></li>
+                    <li><a href="#" class="problem"><strong>CANALES DE CONTACTO</strong></a></li>
+                    <li><a href="Preguntas.html" class="problem"><strong>¿QUIENES SOMOS?</strong></a></li>
+                    <li><a href="Dashboard.html" class="problem"><strong>DASHBOARD</strong></a></li>
+                    <li><a href="INDEX.html" class="problem Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708z" />
+                            </svg>
+                        </a>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div style="text-align: left;" class="container">
+
+
+        <br>
+
+        <h2 id="welcome-message" class="cer">¡Hola, [Nombre de la Persona]!</h2>
+
+        <p style="text-align: center;"><strong>Selecciona tu medicamento</strong></p>
+
+        <form action="procesar_tiroides_doc.php" method="post" style="width: 65%; height: 10%; margin: auto;" class="row">
+            <div class="col-md-12">
+                <label for="inputEmail4" class="form-label">Medico Tratante</label>
+                <input name="medico_tratante" type="text" class="form-control" id="inputEmail4" placeholder="Ingresar Medico Tratante">
+            </div>
+
+            <div class="col-md-6">
+                <label for="opciones" class="form-label">Medicamentos Tiroides</label>
+                <select id="opciones" name="nombre_medicamento" class="form-select">
+                    <option selected>Medicamento</option>
+                    <option>Levotiroxina sódica</option>
+                    <option>Liotironina</option>
+                    <option>Metimazol</option>
+                    <option>Propiltiouracilo</option>
+                    <option>Yodo radiactivo</option>
+                    <option>Propranolol</option>
+                    <option>Atenolol</option>
+                </select>
+                <label for="informacion" class="form-label">Dosificación</label>
+                <input  type="text" class="form-control" id="informacion" name="dosificacion" readonly>
+
+                <label for="descripcion" class="form-label">Descripción</label>
+                <input type="text" class="form-control" id="descripcion" name="descripcion" readonly>
+
+                <label for="Laboratorio" class="form-label">Laboratorio</label>
+                <input type="text" class="form-control" id="Laboratorio" name="laboratorio" readonly>
+
+                <label for="Concentracion" class="form-label">Concentración</label>
+                <input type="text" class="form-control" id="Concentracion" name="concentracion_medicamento" readonly>
+
+                <label for="rutaadmin" class="form-label">Ruta de Administración</label>
+                <input type="text" class="form-control" id="rutaadmin" name="ruta_administracion" readonly>
+
+                <label for="Estado" class="form-label">Estado medicamento</label>
+                <input type="text" class="form-control" id="Estado" name="estado_medicamento" readonly>
+            </div> 
+
+            <div class="col-6">
+                <img style="display: none; max-width: 400px; margin-top: 20px; height: 450px;" id="levoti"
+                    src="Imagenes/Levotiroxina.png" alt="Levotiroxina sódica">
+
+                    <img style="display: none; max-width: 400px; margin-top: 20px; height: 450px;" id="Liotironina"
+                    src="Imagenes/Liotironina.png" alt="Liotironina">
+                    
+                    <img style="display: none; max-width: 400px; margin-top: 20px; height: 450px;" id="Metimazol"
+                    src="Imagenes/Metimazol.png" alt="Metimazol">
+
+                    <img style="display: none; max-width: 400px; margin-top: 20px; height: 450px;" id="Propiltiouracilo"
+                    src="Imagenes/Propiltiouracilo.png" alt="Propiltiouracilo">
+
+                    <img style="display: none; max-width: 400px; margin-top: 20px; height: 450px;" id="Yodo"
+                    src="Imagenes/Yodo_radiactivo.png" alt="Yodo radiactivo">
+
+                    <img style="display: none; max-width: 400px; margin-top: 20px; height: 450px;" id="Propranolol"
+                    src="Imagenes/Propranolol.png" alt="Propranolol">
+
+                    <img style="display: none; max-width: 400px; margin-top: 20px; height: 450px;" id="Atenolol"
+                    src="Imagenes/Atenolol.png" alt="Atenolol">
+            </div>
+                <br><br><br>
+            </div><br>
+            
+            <div class="col-3">
+            </div><br><br>
+            <div style="display: flex;" class="col-6"><br><br><br>
+                <button style="margin: auto;" type="submit" class="btn btn-primary">Asignar</button>
+                <br><br><br><br><br><br><br>
+            </div><br>
+            <div class="col-3">
+            </div>
+           
+
+
+        </form>
+        
+    </div>
+
+    
+
+
+
+    <br><br>
+    <div class="per"></div>
+    <div class="grid text-center" style="--bs-columns: 3; background-color: hsl(180, 18%, 93%);">
+        <div><strong>DATOS DE CONTACTO</strong><br>
+            <div class="dat">
+                <span>PBX:</span> <a href="#">+57(3045385566)</a><br>
+                <span>Línea Nacional:</span> <a href="#">+57 01800056987</a><br>
+                <span>Línea Administrativa:</span> <a href="#">+57(3045385566)</a><br>
+                <span>Línea Anticorrupción Anónima:</span> <a href="#">+57(3045385566)</a><br>
+                <span>Dirección: Av.15 # 115 - 56</span><br>
+                <span>Bogotá, Colombia</span><br>
+            </div>
+        </div>
+
+        <div><strong>DIRECTORIO</strong><br>
+            <div class="dat">
+                <a href="#">Asesores autorizados</a><br>
+                <span>Línea Nacional:</span> <a href="#">Red de distribución</a><br>
+                <span>Línea Administrativa:</span> <a href="#">Mapa del sitio</a><br>
+            </div>
+        </div>
+
+        <div><strong>TRANSPARENCIA</strong><br>
+            <div class="dat">
+                <a href="#">Canales de denuncia</a><br>
+                <a href="#">Gestión integral de riesgos</a><br>
+                <span>Línea Administrativa:</span> <a href="#">Mapa del sitio</a><br>
+            </div>
+        </div>
+        <div><strong>CONSUMIDOR FINANCIERO</strong><br>
+            <div class="dat">
+                <a href="#">Asesores autorizados</a><br>
+                <span>Línea Nacional:</span> <a href="#">Red de distribución</a><br>
+                <span>Línea Administrativa:</span> <a href="#">Mapa del sitio</a><br>
+            </div>
+        </div>
+        <div><strong>NOTIFICACIONES JUDICIALES</strong><br>
+            <div class="dat">
+                <span>Email:</span> <a href="#">cliente@croniclife.com.co</a><br>
+            </div>
+        </div>
+
+        <div><strong>SIGUENOS</strong><br>
+            <div>
+                <a class="Facebook sep" href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a class="Whatsapp sep" href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a class="TikTok sep" href="https://www.tiktok.com/@camilo?lang=es" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a class="Instagram sep" href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <hr>
+
+        <div>
+            <footer>
+                <p>&copy; 2024 CRONICLIFE. Todos los derechos reservados.</p>
+            </footer>
+        </div>
+        <br><br>
+
+
+        <script>
+            // Código para mostrar un nombre aleatorio al cargar la interfaz principal
+            const names = ["Angie Viviana Ramirez Patiño"];
+            const randomName = names[Math.floor(Math.random() * names.length)];
+            document.getElementById('welcome-message').innerText = `¡Hola, ${randomName}!`;
+        </script>
+
+
+        <script>
+            $(document).ready(function () {
+                // Función para precargar la información según la selección
+                $("#opciones").change(function () {
+                    var valorSeleccionado = $(this).val();  // Obtener el valor seleccionado
+                    var texto = "";
+                    var texto2 = "";
+                    var texto3 = "";
+                    var texto4 = "";
+                    var texto5 = "";
+                    var texto6 = "";
+                    var imagen = document.getElementById("levoti");  // Obtener la imagen
+
+                    // Asignar la información correspondiente al valor seleccionado
+                    if (valorSeleccionado === "Levotiroxina sódica") {
+                        texto = "Tomar 1 hora antes del desayuno";
+                        texto2 = "El hipotiroidismo ocurre cuando la tiroides no produce suficientes hormonas tiroideas. El tratamiento más común es con hormona tiroidea sintética, que reemplaza la falta de producción de la glándula tiroides.";
+                        texto3 = "Aventis Pharma S.A. ";
+                        texto4 = "25ML";
+                        texto5 = "Oral";
+                        texto6 = "Disponible";
+                        imagen.src = "Imagenes/Levotiroxina.png";  // Cambiar la ruta de la imagen
+                        imagen.style.display = "block";  // Mostrar la imagen
+                    } else if (valorSeleccionado === "Liotironina") {
+                        texto = "Tomar cada 12 horas";
+                        texto2 = "El hipotiroidismo ocurre cuando la tiroides no produce suficientes hormonas tiroideas. El tratamiento más común es con hormona tiroidea sintética, que reemplaza la falta de producción de la glándula tiroides.";
+                        texto3 = "Bayer Cropscience S.A.";
+                        texto4 = "56ML";
+                        texto5 = "Oral";
+                        texto6 = "Disponible";
+                        imagen.src = "Imagenes/Liotironina.png";  // Cambiar la ruta de la imagen
+                        imagen.style.display = "block";  // Mostrar la imagen
+                    } else if (valorSeleccionado === "Metimazol") {
+                        texto = "Tomar cada 6 horas";
+                        texto2 = "El hipotiroidismo ocurre cuando la tiroides no produce suficientes hormonas tiroideas. El tratamiento más común es con hormona tiroidea sintética, que reemplaza la falta de producción de la glándula tiroides.";
+                        texto3 = "Enka de Colombia  S.A.";
+                        texto4 = "125ML";
+                        texto5 = "Oral";
+                        texto6 = "Disponible";
+                        imagen.src = "Imagenes/Metimazol.png";  // Cambiar la ruta de la imagen
+                        imagen.style.display = "block";  // Mostrar la imagen
+                    } else if (valorSeleccionado === "Propiltiouracilo") {
+                        texto = "Tomar cada 8 horas";
+                        texto2 = "El hipotiroidismo ocurre cuando la tiroides no produce suficientes hormonas tiroideas. El tratamiento más común es con hormona tiroidea sintética, que reemplaza la falta de producción de la glándula tiroides.";
+                        texto3 = "Firmenich S.A. ";
+                        texto4 = "50ML";
+                        texto5 = "Oral";
+                        texto6 = "Disponible";
+                        imagen.src = "Imagenes/Propiltiouracilo.png";  // Cambiar la ruta de la imagen
+                        imagen.style.display = "block";  // Mostrar la imagen
+                    } else if (valorSeleccionado === "Yodo radiactivo") {
+                        texto = "Aplicar en las noches";
+                        texto2 = "El hipotiroidismo ocurre cuando la tiroides no produce suficientes hormonas tiroideas. El tratamiento más común es con hormona tiroidea sintética, que reemplaza la falta de producción de la glándula tiroides.";
+                        texto3 = "Procaps S.A.";
+                        texto4 = "100GR";
+                        texto5 = "Topica";
+                        texto6 = "Disponible";
+                        imagen.src = "Imagenes/Yodo_radiactivo.png";  // Cambiar la ruta de la imagen
+                        imagen.style.display = "block";  // Mostrar la imagen
+                    } else if (valorSeleccionado === "Propranolol") {
+                        texto = "Tomar cada 7 horas";
+                        texto2 = "El hipotiroidismo ocurre cuando la tiroides no produce suficientes hormonas tiroideas. El tratamiento más común es con hormona tiroidea sintética, que reemplaza la falta de producción de la glándula tiroides.";
+                        texto3 = "Reckitt benckiser Colombia S.A.";
+                        texto4 = "30ML";
+                        texto5 = "Oral";
+                        texto6 = "Agotado";
+                        imagen.src = "Imagenes/Propranolol.png";  // Cambiar la ruta de la imagen
+                        imagen.style.display = "block";  // Mostrar la imagen
+                    } else if (valorSeleccionado === "Atenolol") {
+                        texto = "Tomar cada 3 días";
+                        texto2 = "El hipotiroidismo ocurre cuando la tiroides no produce suficientes hormonas tiroideas. El tratamiento más común es con hormona tiroidea sintética, que reemplaza la falta de producción de la glándula tiroides.";
+                        texto3 = "MK";
+                        texto4 = "50ML";
+                        texto5 = "Oral";
+                        texto6 = "Agotado";
+                        imagen.src = "Imagenes/Atenolol.png";  // Cambiar la ruta de la imagen
+                        imagen.style.display = "block";  // Mostrar la imagen
+                    } else {
+                        imagen.style.display = "none";  // Si no se ha seleccionado ninguna opción, ocultar la imagen
+                    }
+
+                    // Colocar la información en el campo de texto
+                    $("#informacion").val(texto);
+                    $("#descripcion").val(texto2);
+                    $("#Laboratorio").val(texto3);
+                    $("#Concentracion").val(texto4);
+                    $("#rutaadmin").val(texto5);
+                    $("#Estado").val(texto6);
+                });
+            });
+        </script>
+
+
+</body>
+
+</html>

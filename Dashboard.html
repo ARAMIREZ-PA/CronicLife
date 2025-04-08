@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Estilos/estilosboot.css">
+</head>
+
+<body>
+    <header><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10">
+                    <div class="col-12 col-md-10">
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <nav class="navbar bg-body-tertiary me-auto">
+                                    <div class="container-fluid">
+                                        <form class="d-flex logo-dashboard" role="buscar">
+                                            <img class="mar" src="Imagenes/Logo.png" width="200px" alt="logo">
+                                            <input class="form-control me-2 w-100" type="buscar" placeholder="Buscar..."
+                                                aria-label="buscar">
+                                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                                        </form>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-1 d-flex flex-column align-items-center justify-content-center mt-3 mt-md-0">
+                    <div>
+                        <img src="Imagenes/medico.png" alt="Perfil" class="img-fluid mb-2 img-dashbar" style="width: 62px;">
+                    </div>
+                </div>
+                <div
+                    class="col-12 col-md-1 d-flex flex-column align-items-center text-primary justify-content-center mt-3 mt-md-0">
+                    <div>
+                        <h5 style="color: rgb(20, 114, 114);">Doctor</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-3">
+                <div style="background-color: aqua;" class="m-lg-1 bg-primary text-white p-5 rounded-3"
+                    style="background-color: black;">
+                    <div class="list-group">
+                        <img src="Imagenes/medico.png" alt="Perfil" class="img-fluid w-50 mb-3 d-block mx-auto img-dashbar">
+                        <span class="text-center bg-primary text-white">Nombre</span>
+                        <span class="text-center bg-primary text-white">correo@correo.com</span>
+                        <div class="mt-lg-3"></div>
+                        <a href="Dashboard.html"
+                            class="list-group-item list-group-item-action bg-primary text-white"><img
+                                src="Imagenes/dashboard.svg" alt="" class="img-fluid me-2"
+                                style="width: 20px; height: auto;"> Dashboard </a>
+                        <a href="Dashboard.html" class="list-group-item list-group-item-action bg-primary text-white">
+                            <img src="Imagenes/ajuste.svg" alt="" class="img-fluid me-2"
+                                style="width: 20px; height: auto;">Ajustes</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-primary text-white"> <img
+                                src="Imagenes/mensaje.svg" alt="" class="img-fluid me-2"
+                                style="width: 20px; height: auto;">Mensajes</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-primary text-white"> <img
+                                src="Imagenes/calendario.svg" alt="" class="img-fluid me-2"
+                                style="width: 20px; height: auto;">Calendario</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-primary text-white"> <img
+                                src="Imagenes/perfil.svg" alt="" class="img-fluid me-2"
+                                style="width: 20px; height: auto;">Perfil</a>
+                        <a href="CronicLife.html" class="list-group-item list-group-item-action bg-primary text-white">
+                            <img src="Imagenes/elemento.svg" alt="" class="img-fluid me-2"
+                                style="width: 20px; height: auto;">Módulos</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-primary text-white"> <img
+                                src="Imagenes/Reporte.svg" alt="" class="img-fluid me-2"
+                                style="width: 20px; height: auto;">Informes</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-primary text-white"> <img
+                                src="Imagenes/gestion.svg" alt="" class="img-fluid me-2"
+                                style="width: 20px; height: auto;">Gestión pacientes</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-primary text-white"> <img
+                                src="Imagenes/incidencia.svg" alt="" class="img-fluid me-2"
+                                style="width: 20px; height: auto;">Incidencia</a>
+                        <a href="Inicio.html" class="list-group-item list-group-item-action bg-primary text-white"><img
+                                src="Imagenes/home.svg" alt="" class="img-fluid me-2"
+                                style="width: 20px; height: auto;">Sitio web</a>
+
+                        <div class="mt-5">
+                            <a href="INDEX.html"
+                                class="list-group-item list-group-item-action bg-primary text-white"><img
+                                    src="Imagenes/cerrar_sesion.svg" alt="" class="img-fluid me-2"
+                                    style="width: 20px; height: auto;">Cerrar
+                                Sesión</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-8 col-lg-9">
+                <div class="row">
+
+
+                    <div class="col-12 col-md-4 col-lg-6">
+                        <h1  style="color: rgb(20, 114, 114);">Dashboard</h1>
+                        <br>
+                        <h2 id="welcome-message">¡Bienvenido, [Nombre de la Persona]!</h2>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="login-form1">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="login-form1">
+                            <button style="background-color: rgb(42, 186, 196);" type="button" class="btn btn-secondary btn-lg">Generar Reporte
+                                <img src="Imagenes/download.svg" alt="prueba">
+                            </button>
+                            
+                </div>
+                    </div>
+                    <br><br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <hr>
+                    <div class="col-12 col-md-4 col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Citas por patologia</h5>
+                                <canvas id="chartCitaspatologia"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card" style="width: 20rem; height: 390px">
+                            <div class="card-body">
+                                <h5 class="card-title">Tratamientos</h5>
+                                <canvas id="chartTotaltratamientos"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 mb-4">
+                        <div class="card" style="width: 20rem; height: 390px">
+                            <div class="card-body">
+                                <h5 class="card-title">Adherencia al tratamiento</h5>
+                                <canvas id="chartAdherenciatratamiento"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <br><br><br>
+                    <div class="col-12 col-md-4 col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Incremento de pacientes cronicos</h5>
+                                <canvas id="chartPacientescronicos"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Impacto del Proyecto CRONICLIFE</h5>
+                                <canvas id="chartdDisminucionmortalidad"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="per"></div>
+        <div class="grid text-center" style="--bs-columns: 3; background-color: hsl(180, 18%, 93%);">
+            <div><strong>DATOS DE CONTACTO</strong><br>
+                <div class="dat">
+                    <span>PBX:</span> <a href="#">+57(3045385566)</a><br>
+                    <span>Línea Nacional:</span> <a href="#">+57 01800056987</a><br>
+                    <span>Línea Administrativa:</span> <a href="#">+57(3045385566)</a><br>
+                    <span>Línea Anticorrupción Anónima:</span> <a href="#">+57(3045385566)</a><br>
+                    <span>Dirección: Av.15 # 115 - 56</span><br>
+                    <span>Bogotá, Colombia</span><br>
+                </div>
+            </div>
+
+            <div><strong>DIRECTORIO</strong><br>
+                <div class="dat">
+                    <a href="#">Asesores autorizados</a><br>
+                    <span>Línea Nacional:</span> <a href="#">Red de distribución</a><br>
+                    <span>Línea Administrativa:</span> <a href="#">Mapa del sitio</a><br>
+                </div>
+            </div>
+
+            <div><strong>TRANSPARENCIA</strong><br>
+                <div class="dat">
+                    <a href="#">Canales de denuncia</a><br>
+                    <a href="#">Gestión integral de riesgos</a><br>
+                    <span>Línea Administrativa:</span> <a href="#">Mapa del sitio</a><br>
+                </div>
+            </div>
+            <div><strong>CONSUMIDOR FINANCIERO</strong><br>
+                <div class="dat">
+                    <a href="#">Asesores autorizados</a><br>
+                    <span>Línea Nacional:</span> <a href="#">Red de distribución</a><br>
+                    <span>Línea Administrativa:</span> <a href="#">Mapa del sitio</a><br>
+                </div>
+            </div>
+            <div><strong>NOTIFICACIONES JUDICIALES</strong><br>
+                <div class="dat">
+                    <span>Email:</span> <a href="#">cliente@croniclife.com.co</a><br>
+                </div>
+            </div>
+
+            <div><strong>SIGUENOS</strong><br>
+                <div>
+                    <a class="Facebook sep" href="https://www.facebook.com/?locale=es_LA" target="blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a class="Whatsapp sep" href="https://www.whatsapp.com/?lang=es_LA" target="blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a class="TikTok sep" href="https://www.tiktok.com/@camilo?lang=es" target="blank">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a class="Instagram sep" href="https://www.instagram.com/" target="blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <hr>
+
+            <div>
+                <footer>
+                    <p>&copy; 2024 CRONICLIFE. Todos los derechos reservados.</p>
+                </footer>
+            </div>
+            <br><br>
+
+        <script>
+            const names = ["Viviana", "Daniela", "Kevin", "Ximena", "Eduer", "Edubin"];
+            const randomName = names[Math.floor(Math.random() * names.length)];
+            document.getElementById('welcome-message').innerText = `¡Bienvenido, ${randomName}!`;
+        </script>
+
+            <script> const ctxCitasPatologia = document.getElementById('chartCitaspatologia').getContext('2d'); const chartCitaspatologia = new Chart(ctxCitasPatologia, { type: 'bar', data: { labels: ['Hipertensión', 'Diabetes', 'Tiroides'], datasets: [{ label: 'Citas por Patologia', data: [10, 20, 30, 40, 50, 60, 65], backgroundColor: '#B9B8F5', borderColor: 'rgba(54, 162, 235, 1)', borderWidth: 1 }] }, options: { scales: { y: { beginAtZero: true } } } });
+                const ctxTotaltratamientos = document.getElementById('chartTotaltratamientos').getContext('2d'); const chartTotaltratamientos = new Chart(ctxTotaltratamientos, { type: 'doughnut', data: { labels: ['Completos', 'En Proceso', 'Pendientes'], datasets: [{ label: 'Total Tratamientos', data: [200, 70, 30], backgroundColor: ['#67F5DB', '#67EDF5', '#C0B8F5'], borderColor: ['rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)'], borderWidth: 1 }] }, });
+                const ctxAdherenciatratamiento = document.getElementById('chartAdherenciatratamiento').getContext('2d'); const chartAdherenciatratamiento = new Chart(ctxAdherenciatratamiento, { type: 'pie', data: { labels: ['Si', 'No', 'En proceso'], datasets: [{ label: 'Adherencia al Tratamiento', data: [80, 40, 20], backgroundColor: ['#67F5DB', '#67EDF5', '#C0B8F5'], borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)'], borderWidth: 1 }] }, });
+                const ctxPacientescronicos = document.getElementById('chartPacientescronicos').getContext('2d'); const chartPacientescronicos = new Chart(ctxPacientescronicos, { type: 'bar', data: { labels: ['2021', '2022', '2023', '2024'], datasets: [{ label: 'Aumento Pacientes Cronicos', data: [50, 68, 78, 80], backgroundColor: 'rgba(54, 162, 235, 0.2)', borderColor: 'rgba(54, 162, 235, 1)', borderWidth: 1 }] }, options: { scales: { y: { beginAtZero: true } } } });
+                const ctxDisminucionmortalidad = document.getElementById('chartdDisminucionmortalidad').getContext('2d'); const chartdDisminucionmortalidad = new Chart(ctxDisminucionmortalidad, { type: 'line', data: { labels: ['2025', '2026', '2027', '2028', '2029', '2030'], datasets: [{ label: 'Disminución mortalidad por enfermedades cronicas', data: [78, 62, 55, 42, 30, 10], backgroundColor: 'rgba(255, 99, 132, 0.2)', borderColor: 'rgba(255, 99, 132, 1)', borderWidth: 1, fill: true }] }, options: { scales: { y: { beginAtZero: true } } } }); </script>
+
+<script>
+    const names = ["Viviana", "Daniela", "Kevin", "Ximena", "Eduer", "Edubin"];
+    const randomName = names[Math.floor(Math.random() * names.length)];
+    document.getElementById('welcome-message').innerText = `¡Bienvenido, ${randomName}!`;
+</script>
+
+</body>
+
+</html>
+</div>

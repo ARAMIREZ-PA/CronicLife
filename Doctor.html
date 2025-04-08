@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Estilos/estilosboot.css">
+</head>
+<body>
+    <header><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-10">
+                    <div class="col-12 col-md-10">
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="d-flex align-items-center flex-grow-1">
+                                <nav class="navbar bg-body-tertiary me-auto">
+                                    <div class="container-fluid">
+                                        <form class="d-flex logo-dashboard" role="buscar">
+                                            <img class="mar" src="Imagenes/Logo.png" width="200px" alt="logo">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Rol</option>
+                                                <option value="1">Paciente</option>
+                                                <option value="2">Doctor</option>
+                                                <option value="3">Administrador</option>
+                                             <!-- BARRA DE NAVEGACIÓN -->
+                                              </select>
+                                        </form>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div style="background-color: aqua;" class="m-lg-1 bg-primary text-white p-5 rounded-3"
+                            style="background-color: black;">
+                            <div class="list-group">
+                                <img src="Imagenes/medico.png" alt="Perfil" class="img-fluid w-50 mb-3 d-block mx-auto img-dashbar">
+                                <span class="text-center bg-primary text-white">Nombre</span>
+                                <span class="text-center bg-primary text-white">correo@correo.com</span>
+                                <span class="text-center bg-primary text-white">Patología especializada</span>
+                                <div class="mt-lg-3"></div>
+                                <a href="Doctor.html"
+                                    class="list-group-item list-group-item-action bg-primary text-white">
+                                    <img src="Imagenes/Dia.png" alt="" class="img-fluid me-2"
+                                        style="width: 20px; height: auto;"> 02 / Dic / 2024 </a>
+                                        <br>
+                                <a href="Doctor.html" class="list-group-item list-group-item-action bg-primary text-white">
+                                    <img src="Imagenes/ajuste.svg" alt="" class="img-fluid me-2"
+                                        style="width: 20px; height: auto;">Resumen diario</a>
+                                        <br>
+                                <a href="#" class="list-group-item list-group-item-action bg-primary text-white"> <img
+                                        src="Imagenes/perfil.svg" alt="" class="img-fluid me-2"
+                                        style="width: 20px; height: auto;">Perfil</a>
+                                <a href="Modulos.html" class="list-group-item list-group-item-action bg-primary text-white">
+                                    <img src="Imagenes/Pacientes.png" alt="" class="img-fluid me-2"
+                                        style="width: 30px; height: auto;">Pacientes</a>
+                                <a href="#" class="list-group-item list-group-item-action bg-primary text-white"> <img
+                                        src="Imagenes/Reporte.svg" alt="" class="img-fluid me-2"
+                                        style="width: 20px; height: auto;">Informes</a>
+                                <a href="#" class="list-group-item list-group-item-action bg-primary text-white"> <img
+                                        src="Imagenes/incidencia.svg" alt="" class="img-fluid me-2"
+                                        style="width: 20px; height: auto;">Novedades</a>
+                                <div class="mt-5">
+                                    <a href="activar_sesion.html"
+                                        class="list-group-item list-group-item-action bg-primary text-white"><img
+                                            src="Imagenes/cerrar_sesion.svg" alt="" class="img-fluid me-2"
+                                            style="width: 20px; height: auto;">Cerrar
+                                        Sesión</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-9">
+                        <div class="row">
+        
+        
+                            <div class="col-12 col-md-4 col-lg-6">
+                                <h1  style="color: rgb(20, 114, 114);">Reporte clínico  </h1>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-3">
+                                <div class="login-form1">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-3">
+                                <div class="login-form1">
+                                    <button style="background-color: rgb(42, 186, 196);" type="button" class="btn btn-secondary btn-lg">Cargar información
+                                        <img src="Imagenes/Cargue.png" alt="Cargue" width="30" height="30">
+                                    </button>      
+                        </div>
+                            </div>
+                            <br><br>
+                            <br>
+                            <hr>
+                            <div class="col-12">
+                                <select class="form-select" aria-label="Default select example" style="background-color: rgb(231, 227, 227);">
+                                    <option selected>Seleccionar paciente</option>
+                                    <option value="1">Laura Tatiana Cortes</option>
+                                    <option value="2">Juan Esteban Rojas</option>
+                                    <option value="3">Paula Valeria Murillo</option>
+                                    <option value="4">Israel Perez Sierra</option>
+                                    <option value="5">Duvan Andres Triana</option>
+                                    <option value="5">Brenda Ximena Castelllanos</option>
+                                  </select>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">Antecedentes</span>
+                                <div class="form-floating">
+                                  <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                                </div>
+                            </div>
+                           
+                                  <div class="input-group mb-3">
+                                    <span class="input-group-text">Ocupación</span>
+                                    <div class="form-floating">
+                                      <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+                                    </div>
+                                  </div>
+                              <br>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Sintomatología reportada por el paciente</label>
+                                <br>
+                              </div>
+                              <hr>
+                              <br>
+                              <div class="login-form1">
+                                <th><a href="">
+                                    <button style="background-color: rgb(42, 186, 196); margin-left: 130px;" type="button" class="btn btn-secondary btn-lg">Historia clínica</button></th>
+                                </a>
+                                <th><a href="Examenes.html">
+                                    <button style="background-color: rgb(42, 186, 196); margin-left: 100px;" type="button" class="btn btn-secondary btn-lg">Laboratorios</button></th>
+                                </a>
+                                <th><a href="Medicamentos_doc.html">
+                                    <button style="background-color: rgb(42, 186, 196); margin-left: 100px;" type="button" class="btn btn-secondary btn-lg">Medicamentos</button></th>
+                                </a>
+                              </div>
+                              <br>
+                              <br>
+                              <br>
+                              <hr>
+                              <br>
+                              <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Hallazgos de consulta</label>
+                                <br>
+                              </div>
+                              <br>  
+                              <div class="input-group mb-3">
+                                <label class="input-group-text" for="inputGroupSelect01" style="background-color: rgb(231, 227, 227);">Descargar</label>
+                                <select class="form-select" id="inputGroupSelect01">
+                                  <option selected>Seleccione el documento que desea descargar</option>
+                                  <option value="1">Resumen clínico</option>
+                                  <option value="2">Órden laboratorios médicos</option>
+                                  <option value="3">Órden medicamentos</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="per"></div>
+        <div class="grid text-center" style="--bs-columns: 3; background-color: hsl(180, 18%, 93%);">
+            <div><strong>DATOS DE CONTACTO</strong><br>
+                <div class="dat">
+                    <span>PBX:</span> <a href="#">+57(3045385566)</a><br>
+                    <span>Línea Nacional:</span> <a href="#">+57 01800056987</a><br>
+                    <span>Línea Administrativa:</span> <a href="#">+57(3045385566)</a><br>
+                    <span>Línea Anticorrupción Anónima:</span> <a href="#">+57(3045385566)</a><br>
+                    <span>Dirección: Av.15 # 115 - 56</span><br>
+                    <span>Bogotá, Colombia</span><br>
+                </div>
+            </div>
+
+            <div><strong>DIRECTORIO</strong><br>
+                <div class="dat">
+                    <a href="#">Asesores autorizados</a><br>
+                    <span>Línea Nacional:</span> <a href="#">Red de distribución</a><br>
+                    <span>Línea Administrativa:</span> <a href="#">Mapa del sitio</a><br>
+                </div>
+            </div>
+
+            <div><strong>TRANSPARENCIA</strong><br>
+                <div class="dat">
+                    <a href="#">Canales de denuncia</a><br>
+                    <a href="#">Gestión integral de riesgos</a><br>
+                    <span>Línea Administrativa:</span> <a href="#">Mapa del sitio</a><br>
+                </div>
+            </div>
+            <div><strong>CONSUMIDOR FINANCIERO</strong><br>
+                <div class="dat">
+                    <a href="#">Asesores autorizados</a><br>
+                    <span>Línea Nacional:</span> <a href="#">Red de distribución</a><br>
+                    <span>Línea Administrativa:</span> <a href="#">Mapa del sitio</a><br>
+                </div>
+            </div>
+            <div><strong>NOTIFICACIONES JUDICIALES</strong><br>
+                <div class="dat">
+                    <span>Email:</span> <a href="#">cliente@croniclife.com.co</a><br>
+                </div>
+            </div>
+
+            <div><strong>SIGUENOS</strong><br>
+                <div>
+                    <a class="Facebook sep" href="https://www.facebook.com/?locale=es_LA" target="blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a class="Whatsapp sep" href="https://www.whatsapp.com/?lang=es_LA" target="blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a class="TikTok sep" href="https://www.tiktok.com/@camilo?lang=es" target="blank">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a class="Instagram sep" href="https://www.instagram.com/" target="blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <hr>
+
+            <div>
+                <footer>
+                    <p>&copy; 2024 CRONICLIFE. Todos los derechos reservados.</p>
+                </footer>
+            </div>
+                              
+</body>
+</html>

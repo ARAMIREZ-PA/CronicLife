@@ -1,73 +1,202 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRONICLIFE</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Estilos/estilos.css"> <!-- Enlace al archivo CSS separado -->
-</head>
-<body>
-    <!-- Interfaz principal (modificada para mostrarse directamente) -->
-    <div class="main-container" id="main-container" style="display: flex;">
-        <div class="main-header">
-            <img src="Imagenes/Imagenes/Logo.png" width="390px" alt="Logo">
-            <h1></h1>
-            <div>
-                <button class="botonconfig">⚙️</button> 
-                <button class="botonconfig">🔔</button>
-                
-            </div>
-        </div>
-        <h2 id="welcome-message">¡Bienvenido, [Nombre de la Persona]!</h2>
-        <p class="subtitle"><b>Realiza fácilmente tus procesos con CRONICLIFE.</b><br>¡Conoce aquí las soluciones virtuales que tenemos especialmente para ti!</p>
-        <div class="search-bar">
-            <input type="text" placeholder="Buscar...">
-        </div>
+    <title>Inicio</title>
 
-        <div class="buttons">
-            <button class="button">
-                <img src="Imagenes/Imagenes/Controlsalud.png" alt="CONTROL SALUD">
-                <p><h5>CONTROL SALUD</h5></p>
-            </button>
-            <button class="button">
-                <img src="Imagenes/Imagenes/Medicamentos.png" alt="MEDICAMENTOS">
-                <p><h5>MEDICAMENTOS</h5></p>
-            </button>
-            <button class="button">
-                <img src="Imagenes/Imagenes/Citamedica.png" alt="CITAS MEDICAS">
-                <p><h5>CITAS MEDICAS</h5></p>
-            </button>
-            <button class="button">
-                <img src="Imagenes/Imagenes/Solicitudes.png" alt="SOLICITUDES Y AUTORIZACIONES">
-                <p><h5>SOLICITUDES Y AUTORIZACIONES</h5></p>
-            </button>
-            <button class="button">
-                <img src="Imagenes/Imagenes/Resultados.png" alt="RESULTADOS EXAMENES">
-                <p><h5>RESULTADOS EXAMENES</h5></p>
-            </button>
-            <button class="button">
-                <img src="Imagenes/Imagenes/Noticias.png" alt="NOTICIAS E INFORMACION">
-                <p><h5>NOTICIAS E INFORMACIÓN</h5></p>
-            </button>
-            <button class="button">
-                <img src="Imagenes/Imagenes/Noticias.png" alt="NOTICIAS E INFORMACION">
-                <p><h5>PQRS</h5></p>
-            </button>
+    <link rel="stylesheet" href="Estilos/inicio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body class="store">
+    <img class="mar" src="Imagenes/Logo.png" width="300px" alt="logo">
+    <header>
+        <hr>
+        <div>
+            <nav>
+                <ul style="display: inline;">
+                    <li><a href="#" class="problem"><strong>INICIO</strong></a></li>
+                    <li><a href="Preguntas_Frecuentes.html" class="problem"><strong>PREGUNTAS FRECUENTES</strong></a></li>
+                    <li><a href="canales_contacto.html" class="problem"><strong>CANALES DE CONTACTO</strong></a></li>
+                    <li><a href="quienes_somos.html" class="problem"><strong>¿QUIENES SOMOS?</strong></a></li>
+                    <li><a href="Dashboard.html" class="problem"><strong>DASHBOARD</strong></a></li>
+                    <li><a href="INDEX.html" class="problem Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708z" />
+                            </svg>
+                        </a>
+                </ul>
+            </nav>
         </div>
-        
-        <footer>
-            <p>&copy; 2024 CRONICLIFE. Todos los derechos reservados.</p>
-        </footer>
+        <hr>
+    </header>
+
+    </div class="cer">
+    <h2 id="welcome-message" class="cer">¡Bienvenido, [Nombre de la Persona]!</h2>
+    <p class="subtitle"><b>Realiza fácilmente tus procesos con CRONICLIFE.</b><br>¡Conoce aquí las soluciones virtuales
+        que tenemos especialmente para ti!</p>
+    <div class="search-bar cer">
+        <input type="text" placeholder="Buscar...">
     </div>
 
-    <script>
-        // Código para mostrar un nombre aleatorio al cargar la interfaz principal
-        const names = ["Juan", "Ana", "Pedro", "María", "Luis", "Carla"];
-        const randomName = names[Math.floor(Math.random() * names.length)];
-        document.getElementById('welcome-message').innerText = `¡Bienvenido, ${randomName}!`;
-    </script>
-</body>
-</html>
+    </div>
+    <div class="servicio">
+        <h2>Nuestros Servicios</h2>
+    </div>
 
+    <div class="Servicios">
+
+        <button class="butt">
+            <a class="com" href="Doctor.html" alt="Novedad citas">
+                <img src="Imagenes/control_salud_dos.jpg" alt="Novedad">
+                <p>
+                    <h4>CONTROL SALUD</h4>
+                </p>
+            </a>
+        </button>
+
+        <button class="butt">
+            <a class="com" href="Medicamentos.html" alt="Novedad citas">
+                <img src="Imagenes/medicamento_dos.jpg" alt="Novedad">
+                <p>
+                    <h4>MEDICAMENTOS</h4>
+                </p>
+            </a>
+        </button>
+
+        <button class="butt">
+            <a class="com" href="Control_citas.html" alt="Novedad citas">
+                <img src="Imagenes/citas_medicas.jpg" alt="Novedad">
+                <p>
+                    <h4>CITAS MEDICAS</h4>
+                </p>
+            </a>
+        </button>
+
+        <button class="butt">
+            <a class="com" href="solicitudes.html" alt="Novedad citas">
+                <img src="Imagenes/solicitudes_autorizaciones.jpg" alt="Novedad">
+                <p>
+                    <h4>SOLICITUDES Y AUTORIZACIONES</h4>
+                </p>
+            </a>
+        </button>
+
+        <button class="butt">
+            <a class="com" href="Examenes.html" alt="Novedad citas">
+                <img src="Imagenes/resultados_examenes.jpg" alt="Novedad">
+                <p>
+                    <h4>RESULTADOS EXAMENES</h4>
+                </p>
+            </a>
+        </button>
+
+        <button class="butt">
+            <a class="com" href="#" alt="Novedad citas">
+                <img src="Imagenes/Noticias_informacion.jpg" alt="Novedad">
+                <p>
+                    <h4>NOTICIAS E INFORMACIÓN</h4>
+                </p>
+            </a>
+        </button>
+
+        <button class="butt">
+            <a class="com" href="#" alt="Novedad citas">
+                <img src="Imagenes/PQRS.jpg" alt="Novedad">
+                <p>
+                    <h4>PQRS</h4>
+                </p>
+            </a>
+        </button>
+
+        
+    </div>
+
+    <div class="per"></div>
+
+    <div class="grid text-center" style="--bs-columns: 3; background-color: hsl(180, 18%, 93%);">
+        <div><strong>DATOS DE CONTACTO</strong><br>
+            <div class="dat">
+                <span>PBX:</span> <a href="#">+57(3045385566)</a><br>
+                <span>Línea Nacional:</span> <a href="#">+57 01800056987</a><br>
+                <span>Línea Administrativa:</span> <a href="#">+57(3045385566)</a><br>
+                <span>Línea Anticorrupción Anónima:</span> <a href="#">+57(3045385566)</a><br>
+                <span>Dirección: Av.15 # 115 - 56</span><br>
+                <span>Bogotá, Colombia</span><br>
+            </div>
+        </div>
+
+        <div><strong>DIRECTORIO</strong><br>
+            <div class="dat">
+                <a href="#">Asesores autorizados</a><br>
+                <span>Línea Nacional:</span> <a href="#">Red de distribución</a><br>
+                <span>Línea Administrativa:</span> <a href="#">Mapa del sitio</a><br>
+            </div>
+        </div>
+
+        <div><strong>TRANSPARENCIA</strong><br>
+            <div class="dat">
+                <a href="#">Canales de denuncia</a><br>
+                <a href="#">Gestión integral de riesgos</a><br>
+                <span>Línea Administrativa:</span> <a href="#">Mapa del sitio</a><br>
+            </div>
+        </div>
+        <div><strong>CONSUMIDOR FINANCIERO</strong><br>
+            <div class="dat">
+                <a href="#">Asesores autorizados</a><br>
+                <span>Línea Nacional:</span> <a href="#">Red de distribución</a><br>
+                <span>Línea Administrativa:</span> <a href="#">Mapa del sitio</a><br>
+            </div>
+        </div>
+        <div><strong>NOTIFICACIONES JUDICIALES</strong><br>
+            <div class="dat">
+                <span>Email:</span> <a href="#">cliente@croniclife.com.co</a><br>
+            </div>
+        </div>
+
+        <div><strong>SIGUENOS</strong><br>
+            <div>
+                <a class="Facebook sep" href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a class="Whatsapp sep" href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a class="TikTok sep" href="https://www.tiktok.com/@camilo?lang=es" target="_blank">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a class="Instagram sep" href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <footer>
+                <p>&copy; 2024 CRONICLIFE. Todos los derechos reservados.</p>
+            </footer>
+        </div>
+        <br><br>
+
+        <script>
+            // Código para mostrar un nombre aleatorio al cargar la interfaz principal
+            const names = ["Juan", "Ana", "Pedro", "María", "Luis", "Carla"];
+            const randomName = names[Math.floor(Math.random() * names.length)];
+            document.getElementById('welcome-message').innerText = `¡Bienvenido, ${randomName}!`;
+        </script>
+
+</body>
+
+</html>
